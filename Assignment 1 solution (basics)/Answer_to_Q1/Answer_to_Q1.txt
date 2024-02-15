@@ -1,0 +1,24 @@
+Q1. How can you output “Physics” and “Wallah” in two different lines in C++?
+
+Answer:
+
+Using "endl" or "\n" , we can output "Physics” and “Wallah” in two different lines.
+
+program:
+
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"Physics"<<endl<<"wallah";
+    return 0;
+}
+
+or 
+
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"Physics\n";
+    cout<<"wallah";
+    return 0;
+}
